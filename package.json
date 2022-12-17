@@ -1,0 +1,22 @@
+{
+  "name": "Beepbeep-mssql",
+  "description": "Example for connection mssql with nodejs using msnodesqlv8",
+  "version": "1.0.0",
+  "license": "MIT",
+  "author": {
+    "name": "Hieu Nguyen",
+    "email": "hieucckha@gmail.com"
+  },
+  "main": "src/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "dev": "nodemon --watch src/ ./src/index.js"
+  },
+  "dependencies": {
+    "msnodesqlv8": "^2.7.0",
+    "mssql": "^9.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
